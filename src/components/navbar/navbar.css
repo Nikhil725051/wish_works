@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    text-transform: uppercase;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.navLink{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.brand{
+    font-size: 30px;
+    color: blue;
+}
+
+.authBtn{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}

@@ -1,0 +1,17 @@
+.detailWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.detail{
+    width: 60vw;
+}
+
+.detailImg img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.detailText p{
+    font-weight: 300;
+}
