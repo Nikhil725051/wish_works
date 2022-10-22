@@ -1,0 +1,30 @@
+.footer{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+.footerItem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footerLink{
+    color: white;
+}
+
+.copyright{
+    display: block;
+    color: white;
+    text-align: center;
+    background-color: blue;
+    padding: 20px 0px;
+}
+
+@media (max-width: 576px){
+    .footer{
+        flex-wrap: wrap;
+    }
+}
